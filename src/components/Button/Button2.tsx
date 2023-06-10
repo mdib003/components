@@ -44,6 +44,12 @@ export const Button2 = () => {
                     right: 0;
                     rotate: 90deg;
                 }
+
+                .button2 .arrow-three {
+                    bottom: 0;
+                    right: 0;
+                    rotate: 180deg;
+                }
   
                 .button2 .arrow-four {
                     bottom: 0;
@@ -51,11 +57,7 @@ export const Button2 = () => {
                     rotate: 270deg;
                 }
   
-                .button2 .arrow-three {
-                    bottom: 0;
-                    right: 0;
-                    rotate: 180deg;
-                }
+                
 
                 .button2:hover .arrow-one {
                     top: calc(100% - 16px);
@@ -71,11 +73,11 @@ export const Button2 = () => {
                     bottom: calc(100% - 16px);
                     right: calc(100% - 16px);
                 }
-  
-  .             button2:hover .arrow-four {
+                
+                .button2:hover .arrow-four {
                     bottom: calc(100% - 16px);
                     left: calc(100% - 16px);
-                }
+                    }
                 `}
             </style>
         </>
